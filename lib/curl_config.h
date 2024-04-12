@@ -392,7 +392,7 @@
 /* #undef HAVE_LDAP_URL_PARSE */
 
 /* Define to 1 if you have the `brotlidec' library (-lbrotlidec). */
-#define HAVE_LIBBROTLIDEC 1
+/* #undef HAVE_LIBBROTLIDEC */
 
 /* Define to 1 if you have the <libgen.h> header file. */
 #define HAVE_LIBGEN_H 1

@@ -159,7 +159,7 @@ while test "$#" -gt 0; do
       CURLLIBDIR=""
     fi
     if test "Xyes" = "Xno"; then
-      echo "${CURLLIBDIR}-lcurl -lssl -lcrypto -lbrotlidec -lz"
+      echo "${CURLLIBDIR}-lcurl -lssl -lcrypto -lz"
     else
       echo "${CURLLIBDIR}-lcurl"
     fi
@@ -171,7 +171,7 @@ while test "$#" -gt 0; do
 
   --static-libs)
     if test "Xyes" != "Xno" ; then
-      echo "${exec_prefix}/lib/libcurl.a" -L/home/dionach/mp-dn/openssl -L/home/dionach/mp-dn/openssl/lib -lssl -lcrypto -lbrotlidec -lz
+      echo "${exec_prefix}/lib/libcurl.a" -static -L/home/dionach/mp-dn/openssl -L/home/dionach/mp-dn/openssl/lib -lssl -lcrypto -lz
     else
       echo 'curl was built with static libraries disabled' >&2
       exit 1
@@ -179,7 +179,7 @@ while test "$#" -gt 0; do
     ;;
 
   --configure)
-    echo " '--with-ssl=/home/dionach/mp-dn/openssl' '--enable-static' '--enable-ech' '--enable-httpsrr' '--enable-debug' 'LDFLAGS=-L/home/dionach/mp-dn/openssl'"
+    echo " '--with-ssl=/home/dionach/mp-dn/openssl' '--enable-static' '--enable-ech' '--enable-httpsrr' '--enable-debug' 'LDFLAGS=-static -L/home/dionach/mp-dn/openssl'"
     ;;
 
   *)

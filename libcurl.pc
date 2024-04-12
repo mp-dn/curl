@@ -37,5 +37,5 @@ URL: https://curl.se/
 Description: Library to transfer files with ftp, http, etc.
 Version: 8.7.2-DEV
 Libs: -L${libdir} -lcurl 
-Libs.private: -lssl -lcrypto -lbrotlidec -lz
+Libs.private: -lssl -lcrypto -lz
 Cflags: -I${includedir} 
