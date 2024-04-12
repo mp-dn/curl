@@ -306,7 +306,7 @@ CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -Werror-implicit-function-declaration -g -O0 -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wbad-function-cast -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wold-style-definition -Wstrict-aliasing=3 -Wattributes -Wdiv-by-zero -Wformat-security -Wmissing-field-initializers -Wmissing-noreturn -Wunreachable-code -Wunused-parameter -Wpragmas -Wredundant-decls -Wcast-align -Waddress -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wtrampolines -Wsign-conversion -Wno-error=sign-conversion -Wvla -ftree-vrp -Wdouble-promotion -Wformat=2 -Warray-bounds=2 -Wshift-negative-value -Wshift-overflow=2 -Wnull-dereference -fdelete-null-pointer-checks -Wduplicated-cond -Wunused-const-variable -Wduplicated-branches -Wrestrict -Walloc-zero -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Warith-conversion -Wenum-conversion -Wno-system-headers
 CFLAG_CURL_SYMBOL_HIDING = -fvisibility=hidden
-CONFIGURE_OPTIONS = " '--with-ssl=/home/dionach/mp-dn/openssl' '--enable-ech' '--enable-httpsrr' '--enable-debug' 'LDFLAGS=-L/home/dionach/mp-dn/openssl'"
+CONFIGURE_OPTIONS = " '--with-ssl=/home/dionach/mp-dn/openssl' '--enable-static' '--enable-ech' '--enable-httpsrr' '--enable-debug' 'LDFLAGS=-L/home/dionach/mp-dn/openssl'"
 CPP = gcc -E
 CPPFLAGS = -isystem /home/dionach/mp-dn/openssl/include
 CPPFLAG_CURL_STATICLIB = 

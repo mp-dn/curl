@@ -179,7 +179,7 @@ while test "$#" -gt 0; do
     ;;
 
   --configure)
-    echo " '--with-ssl=/home/dionach/mp-dn/openssl' '--enable-ech' '--enable-httpsrr' '--enable-debug' 'LDFLAGS=-L/home/dionach/mp-dn/openssl'"
+    echo " '--with-ssl=/home/dionach/mp-dn/openssl' '--enable-static' '--enable-ech' '--enable-httpsrr' '--enable-debug' 'LDFLAGS=-L/home/dionach/mp-dn/openssl'"
     ;;
 
   *)
