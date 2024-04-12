@@ -2786,7 +2786,7 @@ configure:27151: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:69:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
    69 | char SSL_set_quic_use_legacy_codepoint ();
       | ^~~~
-/usr/bin/ld: /tmp/ccVo2YHi.o: in function `main':
+/usr/bin/ld: /tmp/ccKzYqFZ.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:76:(.text+0xa): undefined reference to `SSL_set_quic_use_legacy_codepoint'
 collect2: error: ld returned 1 exit status
 configure:27151: $? = 1
@@ -3006,7 +3006,7 @@ configure:29333: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:68:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
    68 | char gsasl_init ();
       | ^~~~
-/usr/bin/ld: /tmp/ccw7m86r.o: in function `main':
+/usr/bin/ld: /tmp/ccFtEYsf.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:71:(.text+0xa): undefined reference to `gsasl_init'
 collect2: error: ld returned 1 exit status
 configure:29333: $? = 1
@@ -8526,7 +8526,7 @@ configure:42203: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:199:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   199 | char sigsetjmp ();
       | ^~~~
-/usr/bin/ld: /tmp/ccCmNaMb.o: in function `main':
+/usr/bin/ld: /tmp/cc0cnHdG.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:206:(.text+0xa): undefined reference to `sigsetjmp'
 collect2: error: ld returned 1 exit status
 configure:42203: $? = 1
@@ -8825,7 +8825,7 @@ configure:42846: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:203:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   203 | char strcmpi ();
       | ^~~~
-/usr/bin/ld: /tmp/ccutUmvV.o: in function `main':
+/usr/bin/ld: /tmp/ccIe7WWp.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:210:(.text+0xa): undefined reference to `strcmpi'
 collect2: error: ld returned 1 exit status
 configure:42846: $? = 1
@@ -9813,7 +9813,7 @@ configure:43675: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:206:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   206 | char stricmp ();
       | ^~~~
-/usr/bin/ld: /tmp/ccV3TCRx.o: in function `main':
+/usr/bin/ld: /tmp/ccnMJaJs.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:213:(.text+0xa): undefined reference to `stricmp'
 collect2: error: ld returned 1 exit status
 configure:43675: $? = 1
@@ -10321,7 +10321,7 @@ configure:44201: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:208:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   208 | char _fseeki64 ();
       | ^~~~
-/usr/bin/ld: /tmp/ccyyUk8E.o: in function `main':
+/usr/bin/ld: /tmp/ccveowrM.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:215:(.text+0xa): undefined reference to `_fseeki64'
 collect2: error: ld returned 1 exit status
 configure:44201: $? = 1
@@ -10797,7 +10797,7 @@ configure:44201: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:212:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   212 | char getpass_r ();
       | ^~~~
-/usr/bin/ld: /tmp/ccLQafiR.o: in function `main':
+/usr/bin/ld: /tmp/ccMzXSxA.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:219:(.text+0xa): undefined reference to `getpass_r'
 collect2: error: ld returned 1 exit status
 configure:44201: $? = 1
@@ -11295,7 +11295,7 @@ configure:44201: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:218:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   218 | char mach_absolute_time ();
       | ^~~~
-/usr/bin/ld: /tmp/ccAD6OpD.o: in function `main':
+/usr/bin/ld: /tmp/ccvaSngs.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:225:(.text+0xa): undefined reference to `mach_absolute_time'
 collect2: error: ld returned 1 exit status
 configure:44201: $? = 1
@@ -11791,7 +11791,7 @@ configure:44201: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:222:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   222 | char setmode ();
       | ^~~~
-/usr/bin/ld: /tmp/ccTGaddG.o: in function `main':
+/usr/bin/ld: /tmp/ccyO7wqo.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:229:(.text+0xa): undefined reference to `setmode'
 collect2: error: ld returned 1 exit status
 configure:44201: $? = 1
@@ -12400,7 +12400,7 @@ configure:45771: gcc -o conftest -Werror-implicit-function-declaration -g -O0 -p
 conftest.c:234:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
   234 | char SSL_set1_ech_config_list ();
       | ^~~~
-/usr/bin/ld: /tmp/ccneJvHl.o: in function `main':
+/usr/bin/ld: /tmp/cccRehgl.o: in function `main':
 /home/dionach/mp-dn/curl/conftest.c:241:(.text+0xa): undefined reference to `SSL_set1_ech_config_list'
 collect2: error: ld returned 1 exit status
 configure:45771: $? = 1
@@ -12711,20 +12711,28 @@ config.status:1504: creating packages/vms/Makefile
 config.status:1504: creating curl-config
 config.status:1504: creating libcurl.pc
 config.status:1504: creating lib/curl_config.h
+config.status:1685: lib/curl_config.h is unchanged
 config.status:1733: executing depfiles commands
 config.status:1810: cd docs/examples       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1815: $? = 0
 config.status:1810: cd src       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1815: $? = 0
 config.status:1810: cd lib       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1815: $? = 0
 config.status:1810: cd tests/server       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1815: $? = 0
 config.status:1810: cd tests/libtest       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1815: $? = 0
 config.status:1810: cd tests/unit       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1815: $? = 0
 config.status:1810: cd tests/http/clients       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1815: $? = 0
 config.status:1733: executing libtool commands
 configure:49020: Configured to build curl/libcurl:
